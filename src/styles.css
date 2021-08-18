@@ -1,4 +1,91 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  /* background-color: blueviolet; */
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+body {
+  margin-bottom: 0rem;
+}
+
+input {
+  width: 40%;
+  padding: 0.5rem;
+  color: #4d1a7f;
+  border: 5px sloid #4d1a7f;
+  margin-top: 2rem;
+}
+
+.output {
+  border: 2px solid #4d1a7f;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.checkBtn {
+  margin: 1rem;
+  border: none;
+  border: 1px solid #4d1a7f;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #4d1a7f;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.checkBtn:hover {
+  background-color: white;
+  color: #4d1a7f;
+}
+
+.git-img {
+  height: 4rem;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.git-img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.twitter-img {
+  height: 4rem;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.twitter-img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.linkedin-img {
+  height: 4rem;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.linkedin-img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+li {
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+footer {
+  margin-top: 10rem;
+  padding: 1rem 1rem;
+  background-color: #4d1a7f;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
