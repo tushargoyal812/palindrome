@@ -185,7 +185,7 @@ export default function App() {
             </a>
           </li>
           <li className="list-item-inline">
-            <a href={"https://www.linkedin.com/in/tushar-goyal-8868741b1"}>
+            <a href={"https://www.linkedin.com/in/tushargoyal29/"}>
               <img alt="" className="linkedin-img" src={linkedinImg} />
             </a>
           </li>
